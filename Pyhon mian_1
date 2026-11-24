@@ -1,0 +1,9 @@
+import streamlit as st
+
+page = st.navigation(
+    [
+        st.Page("pages/hello.py", title="Hello"),
+        st.Page("pages/getinfo.py", title="Getting information")
+    ]
+)
+page.run()
